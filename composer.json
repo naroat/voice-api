@@ -1,0 +1,25 @@
+{
+    "name": "naroat/voice-api",
+    "autoload": {
+        "psr-4": {
+            "Naroat\\VoiceApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Naroat\\VoiceApi\\Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "taoran",
+            "email": "taoran0796@163.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}
